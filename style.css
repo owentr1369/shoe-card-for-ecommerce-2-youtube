@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #e0dbc9;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    margin: auto;
+    width: 520px;
+    height: 350px;
+    background-color: #f5f5f5;
+    box-shadow: 5px 5px 5px rgba(180, 151, 113, 0.5);
+    border-radius: 10px;
+}
+
+p {
+    font-size: 0.6em;
+    color: #a38f11;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 1.2em;
+    color: #4e4e4e;
+    margin-top: -5px;
+}
+
+h2 {
+    color: #e4bc34;
+    margin-top: -5px;
+}
+
+img {
+    width: 270px;
+    height: 290px;
+    object-fit: contain;
+    margin-top: -60px;
+    margin-left: 20px;
+}
+
+.product {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    top: 10%;
+    left: 60%;
+}
+
+.desc {
+    letter-spacing: 0;
+    color: #4e4e4e;
+    font-size: 0.7em;
+    line-height: 1.6em;
+    margin-right: 25px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+button {
+    background-color: #d29935;
+    padding: 10px;
+    display: inline-block;
+    outline: none;
+    border: none;
+    margin: -1px;
+    margin-top: 20px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #f5f5f5;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #eca700;
+    transition: all 0.4s ease-in-out;
+}
+
+.add {
+    width: 67%;
+}
+
+.like {
+    width: 22%;
+}
+
+.sizes {
+    display: grid;
+    color: #eca700;
+    grid-template-columns: repeat(auto-fill, 30px);
+    width: 60%;
+    grid-gap: 4px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.pick {
+    margin-top: 11px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    color: #b79935;
+}
+
+.size {
+    padding: 9px;
+    border: 1px solid #eca700;
+    font-size: 0.7em;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.size:hover {
+    background-color: #eca700;
+    color: #f5f5f5;
+    transition: all 0.4s ease-in-out;
+}
